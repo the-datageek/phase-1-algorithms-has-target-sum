@@ -1,13 +1,30 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
+
+
+
+  function sum(num1, num2) {
+  return num1 + num2;
+}
+
+const summation = sum(num1+num2)
+  if (summation === target){
+  return true
+  }else{
+    return false
+  }
 }
 
 /* 
   Write the Big O time complexity of your function here
 */
 
-/* 
+/*   
   Add your pseudocode here
+  if the summation of any two numbers in array add upto the target integer
+      return true
+  else
+      return false  
 */
 
 /*
